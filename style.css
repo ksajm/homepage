@@ -31,7 +31,7 @@ ul {
 
 #nav {
     width: 100vw;
-    height: 8vh;
+    height: 15vw;
     background-color: #262626;
 
     position: fixed;
@@ -39,8 +39,8 @@ ul {
 }
 
 #nav > .logo {
-    width: 8vh;
-    height: 8vh;
+    width: 15vw;
+    height: 15vw;
 }
 
 #content {
