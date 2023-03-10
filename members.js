@@ -72,7 +72,14 @@ const members = [
     }),
     new Member({
         name: '김창하',
-        id: '23-035'
+        id: '23-035',
+        quote: 'd[i][j][k] = str(a)',
+        links: ['github.com/modularinv', 'modularinv.tistory.com', 'instagram.com/chha_aa07'],
+        favorite: {
+            field: '알고리즘 문제해결(PS), 머신러닝',
+            language: 'C++, Java'
+        },
+        description: '안녕하세요 반갑습니다!! :)'
     }),
     new Member({
         name: '문가온',
