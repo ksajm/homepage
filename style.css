@@ -13,9 +13,16 @@
 #nav {
     width: 100vw;
     height: 8vh;
-    background-color: black;
+    background-color: #262626;
 
     position: fixed;
+}
+
+#nav > #logo {
+    width: 8vh;
+    height: 8vh;
+    background-image: url('./logo.png');
+    background-size: contain;
 }
 
 .page {
