@@ -76,7 +76,14 @@ const members = [
     }),
     new Member({
         name: '문가온',
-        id: '23-046'
+        id: '23-046',
+        quote: '집 가고 싶다',
+        links: ['github.com/bennyk0406', 'instagram.com/ga0.on'],
+        favorite: {
+            field: '웹 개발 (PS도 공부 중...!)',
+            language: 'JS, TS, Python(?)'
+        },
+        description: '안녕하세요 :D'
     }),
     new Member({
         name: '김정환',
