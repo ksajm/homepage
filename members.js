@@ -37,7 +37,7 @@ class Member {
         code += this.description
 
         const memberElement = document.createElement('div')
-        memberElement.setAttribute('class', 'member')
+        memberElement.setAttribute('class', 'member card')
         memberElement.innerHTML = code
         element.appendChild(memberElement)
     }
@@ -48,7 +48,7 @@ const members = [
         name: '김준이',
         id: '23-031',
         quote: '준이는 귀엽다.',
-        links: ['www.juneekim7.kro.kr', 'www.instagram.com/juneekim7/', 'flev.io'],
+        links: ['www.juneekim7.kro.kr', 'insta.juneekim7.kro.kr', 'flev.io'],
         favorite: {
             field: '웹 개발',
             language: 'js'
@@ -63,7 +63,7 @@ const members = [
         name: '김래환',
         id: '23-016',
         quote: '김래환은 잘생겼다.',
-        links: ['www.instagram.com/raehwan.k/', 'www.acmicpc.net/user/Raehwan0418'],
+        links: ['instagram.com/raehwan.k/', 'acmicpc.net/user/Raehwan0418'],
         favorite: {
             field: '알고리즘',
             language: 'C++'

@@ -5,22 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>『정모』 - 정전 모임</title>
-    <link href="./style.css" rel="stylesheet">
+    <style>
+        @import url(./pc.css) screen and (min-aspect-ratio: 1/1);
+        @import url(./style.css) screen and (max-aspect-ratio: 1/1);
+    </style>
     <script src="./members.js"></script>
 </head>
 <body>
     <div id="nav">
-        <div id="logo"></div>
+        <div class="logo"></div>
     </div>
     <div id="content">
-        <div class="page" id="main"></div>
-        <div class="page" id="projects"></div>
-        <div class="page" id="members"></div>
+        <div class="page" id="main">
+            <div class="logo">
+                <h1>『정모』 - 정전 모임</h1>
+                <h2>정보 좋아하는 KSA 23 모임</h2>
+            </div>
+        </div>
+        <div class="page" id="projects">
+            <h1>Projects</h1>
+            <div class="card">
+                <h2>nothing</h2>
+            </div>
+        </div>
+        <div class="page" id="members">
+            <h1>Members</h1>
+            <div id="member-container"></div>
+        </div>
     </div>
     <!--아래 스크립트는 테스트로 남겨둔거, 나중에 지울거임-->
     <script>
         for (let member of members) {
-            member.display(document.getElementById('members'))
+            member.display(document.getElementById('member-container'))
         }
     </script>
 </body>

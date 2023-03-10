@@ -6,19 +6,19 @@
 }
 
 h1 {
-    font-size: 8vw;
+    font-size: 3vw;
 }
 h2 {
-    font-size: 5vw;
+    font-size: 2vw;
 }
 h3 {
-    font-size: 4vw;
+    font-size: 1vw;
 }
 a {
     color: #F08080;
 }
 ul {
-    margin: 5vw;
+    margin: 2vw;
 }
 
 .logo {
@@ -31,7 +31,7 @@ ul {
 
 #nav {
     width: 100vw;
-    height: 8vh;
+    height: 10vh;
     background-color: #262626;
 
     position: fixed;
@@ -39,14 +39,14 @@ ul {
 }
 
 #nav > .logo {
-    width: 8vh;
-    height: 8vh;
+    width: 10vh;
+    height: 10vh;
 }
 
 #content {
     scroll-behavior: smooth;
     color: #262626;
-    font-size: 4vw;
+    font-size: 1.5vw;
 }
 
 .page {
@@ -65,7 +65,7 @@ ul {
 #main > .logo > h1, #main > .logo > h2, #main > .logo > h3 {
     width: 100vw;
     position: relative;
-    top: calc(50vh - 8vw);
+    top: calc(50vh - 3vw);
     color: #707070;
 }
 
@@ -74,7 +74,7 @@ ul {
 }
 
 .card {
-    margin-top: 5vw;
+    margin-top: 2vw;
 
     text-align: center;
 }
@@ -85,27 +85,31 @@ ul {
 }
 
 #projects > h1, #members > h1 {
-    padding: 5vw;
+    padding: 2vw;
     border-bottom: 3px solid black;
 }
 
 #projects > .card > h2 {
-    line-height: 100vw;
+    line-height: 100vh;
 }
 
 #members {
     background-color: #262626;
-    display: grid;
 }
 
 #members > h1 {
     color: #FAFAFA;
 }
 
+#member-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .member.card {
-    margin: 5vw;
-    padding: 10vw;
-    width: 90vw;
+    margin: 1.5vw;
+    padding: 5vw;
+    width: 30vw;
     background-color: #FAFAFA;
-    border-radius: 10vw;
+    border-radius: 5vw;
 }
