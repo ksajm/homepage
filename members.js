@@ -61,7 +61,14 @@ const members = [
     }),
     new Member({
         name: '김래환',
-        id: '23-016'
+        id: '23-016',
+        quote: '김래환은 잘생겼다.',
+        links: ['www.instagram.com/raehwan.k/', 'www.acmicpc.net/user/Raehwan0418'],
+        favorite: {
+            field: '알고리즘',
+            language: 'C++'
+        },
+        description: '안녕하세요 김래환입니다.'
     }),
     new Member({
         name: '김창하',
