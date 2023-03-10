@@ -85,7 +85,7 @@ const members = [
         name: '문가온',
         id: '23-046',
         quote: '집 가고 싶다',
-        links: ['github.com/bennyk0406', 'instagram.com/ga0.on'],
+        links: ['github.com/bennyk0406', 'instagram.com/ga0_on'],
         favorite: {
             field: '웹 개발 (PS도 공부 중...!)',
             language: 'JS, TS, Python(?)'
