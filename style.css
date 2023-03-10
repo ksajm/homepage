@@ -1,7 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     box-sizing: border-box;
+}
+
+#content {
+    margin-top: 8vh;
+    scroll-behavior: smooth;
+}
+
+#nav {
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+
+    position: fixed;
 }
 
 .page {
