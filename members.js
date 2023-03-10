@@ -36,7 +36,10 @@ class Member {
         
         code += this.description
 
-        element.innerHTML += code
+        const memberElement = document.createElement('div')
+        memberElement.setAttribute('class', 'member')
+        memberElement.innerHTML = code
+        element.appendChild(memberElement)
     }
 }
 
