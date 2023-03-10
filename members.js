@@ -95,7 +95,14 @@ const members = [
     }),
     new Member({
         name: '차재윤',
-        id: '23-114'
+        id: '23-114',
+        quote: '근본은 C!',
+        links: ['github.com/lochajy', 'instagram.com/__locha'],
+        favorite: {
+            field: '프로그래밍 언어 개발, 암호화폐, (딥러닝)',
+            language: 'Python, C'
+        },
+        description: 'return NULL;'
     }),
     new Member({
         name: '문이현',
