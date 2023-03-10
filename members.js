@@ -47,7 +47,7 @@ const members = [
     new Member({
         name: '김준이',
         id: '23-031',
-        quotes: '준이는 귀엽다.',
+        quote: '준이는 귀엽다.',
         links: ['www.juneekim7.kro.kr', 'www.instagram.com/juneekim7/', 'flev.io'],
         favorite: {
             field: '웹 개발',
