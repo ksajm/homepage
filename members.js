@@ -94,7 +94,13 @@ const members = [
     }),
     new Member({
         name: '김정환',
-        id: '23-027'
+        id: '23-027',
+        links: ['galois1423.github.io/porfolio'],
+        favorite: {
+            field: '수학',
+            language: '1차 술어 논리'
+        },
+        description: '수전이지만 정보과학도 좋아합니다.'
     }),
     new Member({
         name: '김수안',
