@@ -47,7 +47,8 @@ class Member {
             </div>`
         }
 
-        code += `<h1>${this.name}</h1>
+        code += `<div class="info">
+        <h1>${this.name}</h1>
         <h2>${this.id}</h2>`
 
         if (hasQuote) {
@@ -64,6 +65,7 @@ class Member {
         </ul>`
         
         code += this.description
+        code += '</div>'
 
         const memberElement = document.createElement('div')
         memberElement.setAttribute('class', 'member card')
@@ -74,8 +76,8 @@ class Member {
 
 const ranks = [
     new Rank('정모장', '#f08080'),
-    new Rank('부장', '#135D7F'),
-    new Rank('1기', '#539790'),
+    new Rank('부장', '#31728f'),
+    new Rank('1기', '#69a49e'),
     new Rank('2기'),
     new Rank('3기')
 ]

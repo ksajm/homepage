@@ -108,4 +108,26 @@ ul {
     width: 90vw;
     background-color: #fafafa;
     border-radius: 10vw;
+    
+    overflow: visible;
+}
+
+.rank {
+    width: 30vw;
+    height: 12vw;
+    border: 5px solid #262626;
+    border-radius: 12vw;
+    box-sizing: content-box;
+
+    line-height: 12vw;
+    font-size: 5vw;
+    font-weight: bolder;
+
+    position: relative;
+    top: -14vw; left: -5.25vw;
+}
+
+.info {
+    position: relative;
+    top: -5vw;
 }

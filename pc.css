@@ -129,3 +129,8 @@ ul {
     position: relative;
     top: -7vw; left: -1.75vw;
 }
+
+.info {
+    position: relative;
+    top: -4vw;
+}
