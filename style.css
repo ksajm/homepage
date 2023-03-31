@@ -15,7 +15,7 @@ h3 {
     font-size: 4vw;
 }
 a {
-    color: #F08080;
+    color: #f08080;
 }
 ul {
     margin: 5vw;
@@ -70,7 +70,7 @@ ul {
 }
 
 #main > .logo > h1 {
-    color: #FAFAFA;
+    color: #fafafa;
 }
 
 .card {
@@ -79,17 +79,17 @@ ul {
     text-align: center;
 }
 
-#projects > .card {
+#description > .card {
     width: 100vw;
     border-bottom: 3px solid black;
 }
 
-#projects > h1, #members > h1 {
+#description > h1, #members > h1 {
     padding: 5vw;
     border-bottom: 3px solid black;
 }
 
-#projects > .card > h2 {
+#description > .card > h2 {
     line-height: 100vw;
 }
 
@@ -99,13 +99,13 @@ ul {
 }
 
 #members > h1 {
-    color: #FAFAFA;
+    color: #fafafa;
 }
 
 .member.card {
     margin: 5vw;
     padding: 10vw;
     width: 90vw;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     border-radius: 10vw;
 }
