@@ -166,5 +166,15 @@ const members = [
         name: '문이현',
         id: '23-047',
         rankName: '1기'
+    }),
+    new Member({
+        name: '차주원',
+        id: '23-115',
+        rankName: '2기'
+    }),
+    new Member({
+        name: '김태이',
+        id: '23-037',
+        rankName: '2기'
     })
 ]
