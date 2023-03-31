@@ -130,7 +130,7 @@ const members = [
         links: ['github.com/bennyk0406', 'instagram.com/ga0_on'],
         favorite: {
             field: '웹 개발 (PS도 공부 중...!)',
-            language: 'JS, TS, Python(?)'
+            language: 'js, ts, Python(?)'
         },
         description: '안녕하세요 :D'
     }),
