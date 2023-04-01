@@ -116,7 +116,7 @@ const members = [
         name: '김래환',
         id: '23-016',
         rankName: '1기',
-        quote: '김래환은 잘생겼다.',
+        quote: '이슈가 있는데?',
         links: ['instagram.com/raehwan.k/', 'acmicpc.net/user/Raehwan0418'],
         favorite: {
             field: '알고리즘',
