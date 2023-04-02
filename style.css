@@ -74,12 +74,13 @@ ul {
 }
 
 .card {
-    margin-top: 5vw;
+    margin-top: 15vw;
 
     text-align: center;
 }
 
 #description > .card {
+    padding-bottom: 15vw;
     width: 100vw;
     border-bottom: 3px solid black;
 }
