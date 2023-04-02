@@ -108,21 +108,21 @@ const members = [
         description: '안녕하세요 반갑습니다!! :)'
     }),
     new Member({
-        name: '김준성',
-        id: '23-029',
-        rankName: '1기'
-    }),
-    new Member({
         name: '김래환',
         id: '23-016',
         rankName: '1기',
         quote: '이슈가 있는데?',
-        links: ['instagram.com/raehwan.k/', 'acmicpc.net/user/Raehwan0418'],
+        links: ['acmicpc.net/user/Raehwan0418', 'instagram.com/raehwan.k/'],
         favorite: {
             field: '알고리즘',
             language: 'C++'
         },
         description: '안녕하세요 김래환입니다.'
+    }),
+    new Member({
+        name: '김준성',
+        id: '23-029',
+        rankName: '1기'
     }),
     new Member({
         name: '문가온',
@@ -135,17 +135,6 @@ const members = [
             language: 'js, ts, Python(?)'
         },
         description: '안녕하세요 :D'
-    }),
-    new Member({
-        name: '김정환',
-        id: '23-027',
-        rankName: '1기',
-        links: ['galois1423.github.io/porfolio'],
-        favorite: {
-            field: '수학',
-            language: '1차 술어 논리'
-        },
-        description: '수전이지만 정보과학도 좋아합니다.'
     }),
     new Member({
         name: '김수안',
@@ -163,6 +152,17 @@ const members = [
             language: 'Python, C'
         },
         description: 'return NULL;'
+    }),
+    new Member({
+        name: '김정환',
+        id: '23-027',
+        rankName: '1기',
+        links: ['galois1423.github.io/porfolio'],
+        favorite: {
+            field: '수학',
+            language: '1차 술어 논리'
+        },
+        description: '수전이지만 정보과학도 좋아합니다.'
     }),
     new Member({
         name: '문이현',

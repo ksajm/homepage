@@ -131,4 +131,5 @@ ul {
 .info {
     position: relative;
     top: -5vw;
+    overflow-x: visible;
 }
