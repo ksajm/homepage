@@ -99,7 +99,7 @@ const members = [
         name: '김창하',
         id: '23-035',
         rankName: '부장',
-        quote: 'd[i][j][k] = str(a)',
+        quote: '아 프문해 숙제 안했다',
         links: ['github.com/modularinv', 'modularinv.tistory.com', 'instagram.com/chha_aa07'],
         favorite: {
             field: '알고리즘 문제해결(PS), 머신러닝',
