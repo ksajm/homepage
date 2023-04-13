@@ -90,7 +90,7 @@ const members = [
         quote: '준이는 귀엽다.',
         links: ['www.juneekim7.kro.kr', 'insta.juneekim7.kro.kr', 'flev.io'],
         favorite: {
-            field: '웹 개발',
+            field: '웹 개발, 알고리즘',
             language: 'js'
         },
         description: '안녕하세요! 정모를 만든 김준이라고 합니다!'
@@ -154,29 +154,19 @@ const members = [
         description: 'return NULL;'
     }),
     new Member({
-        name: '김정환',
-        id: '23-027',
-        rankName: '1기',
-        links: ['galois1423.github.io/porfolio'],
+        name: '손민성',
+        id: '23-063',
+        rankName: '2기',
+        quote: '0은 자연수다',
+        links: ['instagram.com/son_ms2305', 'www.acmicpc.net/user/leosonyee', 'github.com/Yee6102'],
         favorite: {
-            field: '수학',
-            language: '1차 술어 논리'
-        },
-        description: '수전이지만 정보과학도 좋아합니다.'
-    }),
-    new Member({
-        name: '문이현',
-        id: '23-047',
-        rankName: '1기'
-    }),
-    new Member({
-        name: '차주원',
-        id: '23-115',
-        rankName: '2기'
-    }),
+            field: '수학, 정보',
+            language: 'C, Python'
+        }
+    })/*,
     new Member({
         name: '김태이',
         id: '23-037',
         rankName: '2기'
-    })
+    })*/
 ]
