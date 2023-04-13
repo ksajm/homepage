@@ -46,6 +46,11 @@ class Member {
                 ${this.rank.name}
             </div>`
         }
+        else {
+            code += `<div class="rank ${this.rank.name}" style="opacity: 0;">
+                ${this.rank.name}
+            </div>`
+        }
 
         code += `<div class="info">
         <h1>${this.name}</h1>
