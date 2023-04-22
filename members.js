@@ -9,7 +9,7 @@ class Member {
     constructor({
         name = '이름',
         id = '23-000',
-        rankName = '3기',
+        rankName = '1기',
         quote = undefined,
         links = [],
         favorite = {
@@ -82,9 +82,7 @@ class Member {
 const ranks = [
     new Rank('정모장', '#f08080'),
     new Rank('부장', '#31728f'),
-    new Rank('1기', '#69a49e'),
-    new Rank('2기'),
-    new Rank('3기')
+    new Rank('1기')
 ]
 
 const members = [
@@ -115,7 +113,6 @@ const members = [
     new Member({
         name: '김래환',
         id: '23-016',
-        rankName: '1기',
         quote: '이슈가 있는데?',
         links: ['acmicpc.net/user/Raehwan0418', 'instagram.com/raehwan.k/'],
         favorite: {
@@ -127,12 +124,10 @@ const members = [
     new Member({
         name: '김준성',
         id: '23-029',
-        rankName: '1기'
     }),
     new Member({
         name: '문가온',
         id: '23-046',
-        rankName: '1기',
         quote: '집 가고 싶다',
         links: ['github.com/bennyk0406', 'instagram.com/ga0_on'],
         favorite: {
@@ -144,12 +139,10 @@ const members = [
     new Member({
         name: '김수안',
         id: '23-022',
-        rankName: '1기'
     }),
     new Member({
         name: '차재윤',
         id: '23-114',
-        rankName: '1기',
         quote: '근본은 C!',
         links: ['github.com/lochajy', 'instagram.com/__locha'],
         favorite: {
@@ -161,17 +154,23 @@ const members = [
     new Member({
         name: '손민성',
         id: '23-063',
-        rankName: '2기',
         quote: '0은 자연수다',
         links: ['instagram.com/son_ms2305', 'www.acmicpc.net/user/leosonyee', 'github.com/Yee6102'],
         favorite: {
             field: '수학, 정보',
             language: 'C, Python'
         }
-    })/*,
+    }),
     new Member({
         name: '김태이',
         id: '23-037',
-        rankName: '2기'
-    })*/
+    }),
+    new Member({
+        name: '문이현',
+        id: '23-047',
+    }),
+    new Member({
+        name: '차주원',
+        id: '23-115',
+    }),
 ]
