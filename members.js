@@ -94,7 +94,7 @@ const members = [
         links: ['www.juneekim7.kro.kr', 'insta.juneekim7.kro.kr', 'flev.io'],
         favorite: {
             field: '웹 개발, 알고리즘',
-            language: 'js'
+            language: 'typescript, js'
         },
         description: '안녕하세요! 정모를 만든 김준이라고 합니다!'
     }),
@@ -131,8 +131,8 @@ const members = [
         quote: '집 가고 싶다',
         links: ['github.com/bennyk0406', 'instagram.com/ga0_on'],
         favorite: {
-            field: '웹 개발 (PS도 공부 중...!)',
-            language: 'js, ts, Python(?)'
+            field: '웹 개발, PS',
+            language: 'Python, TS, C++, JS'
         },
         description: '안녕하세요 :D'
     }),
@@ -173,4 +173,12 @@ const members = [
         name: '차주원',
         id: '23-115',
     }),
+    new Member({
+        name: '이준민',
+        id: '23-089',
+        favorite: {
+            field: 'PS, 알고리즘',
+            language: 'Python, C++'
+        }
+    })
 ]
