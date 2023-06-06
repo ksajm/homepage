@@ -3,6 +3,8 @@
 }
 
 #activity-name {
+    width: calc(100vw - 40vh);
+
     font-size: 6vh;
     font-weight: bold;
 
@@ -31,4 +33,94 @@
 }
 #next {
     right: 3vh;
+}
+
+.team {
+    width: calc(50vw - 20vh);
+
+    font-size: 4vh;
+
+    position: absolute;
+    top: 25vh;
+}
+
+#agree {
+    left: 20vh;
+}
+#agree > h1 {
+    color: #31728f;
+}
+
+#disagree {
+    left: 50vw;
+}
+#disagree > h1 {
+    color: #f08080;
+}
+
+#current-person {
+    font-size: 4vh;
+
+    position: absolute;
+    top: 25vh;
+    left: 20vh;
+}
+
+#next-person {
+    color: lightslategray;
+    font-size: 3vh;
+
+    position: absolute;
+    top: 25vh;
+    left: 50vw;
+}
+#next-person > .info {
+    color: lightslategray;
+}
+
+#timer {
+    width: 50vw;
+    height: 50vh;
+
+    font-size: 40vh;
+    text-align: center;
+    line-height: 50vh;
+
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+
+    overflow: hidden;
+}
+
+.timer-button {
+    width: 15vh;
+    height: 10vh;
+    background-color: #fafafa;
+    border-radius: 2vh;
+    box-shadow: 2px 2px 8px grey;
+
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: center;
+    line-height: 10vh;
+
+    position: absolute;
+    top: 80vh;
+    left: calc(50vw - 7.5vh);
+
+    overflow: hidden;
+    transition-duration: 300ms;
+}
+.timer-button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#start:hover {
+    background-color: #31728f;
+}
+
+#end:hover {
+    background-color: #f08080;
 }

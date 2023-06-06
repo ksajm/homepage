@@ -85,7 +85,7 @@ ul {
     border-bottom: 3px solid #262626;
 }
 
-#description > h1, #members > h1 {
+#description > h1, #members > h1, #jungmo > h1 {
     padding: 2vw;
     border-bottom: 3px solid #262626;
 }
@@ -135,4 +135,8 @@ ul {
     position: relative;
     top: -4vw;
     overflow-x: visible;
+}
+
+#jungmo > .card {
+    margin-bottom: 10vw;
 }

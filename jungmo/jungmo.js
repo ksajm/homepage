@@ -1,16 +1,29 @@
-class Present {
-    constructor(topic, time = 3, isPublic = false, image = null) {
+class Activity {
+    constructor(topic, isPublic) {
         this.topic = topic
-        this.time = time
         this.isPublic = isPublic
-        this.image = image
     }
 }
 
-class Debate {
+class Present extends Activity {
+    constructor(topic, time = 3, orderType = 'normal', isPublic = false, image = null) {
+        super(topic, isPublic)
+        this.time = time
+        this.orderType = orderType
+        this.image = image
+        this.order = []
+    }
+
+    setOrder(participants) {
+        this.order = [...participants]
+        if (this.orderType === 'reverse') this.order.reverse()
+        else if (this.orderType === 'random') this.order.sort(() => Math.random() - 0.5)
+    }
+}
+
+class Debate extends Activity {
     constructor(topic, isPublic = false, image = null) {
-        this.topic = topic
-        this.isPublic = isPublic
+        super(topic, isPublic)
         this.image = image
         this.agree = []
         this.disagree = []
@@ -24,11 +37,12 @@ class Debate {
 
         for (let i = 0; i < participants.length; i++) {
             const person = participants[i]
-            if (i % 2 == 0) this.agree.push(person)
+            if (i % 2 === 0) this.agree.push(person)
             else this.disagree.push(person)
         }
     }
 }
+
 
 class Jungmo {
     index = -1
