@@ -21,7 +21,7 @@ document.getElementById('end').onclick = () => {
     document.getElementById('timer').textContent = '00:00'
     orderIndex++
     const order = jungmoList[index].activities[activityIndex].order
-    document.getElementById('current-person').innerHTML = '<span class="info">현재: </span>' +  order[orderIndex]
+    document.getElementById('current-person').innerHTML = '<span class="info">현재: </span>' +  (order[orderIndex] ?? '없음')
     document.getElementById('next-person').innerHTML = '<span class="info">다음: </span>' + (order[orderIndex + 1] ?? '없음')
 
     document.getElementById('start').style.display = 'block';
