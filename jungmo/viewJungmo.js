@@ -1,13 +1,14 @@
 /// <reference path="./jungmo.js">
 
-const participants = JSON.parse('["'
+const url = new URL(window.location.href)
+const params = new URLSearchParams(url.search)
+const index = params.get('index')
+
+const participants = jungmoList[index].participants ?? JSON.parse('["'
     + prompt('참여자를 앉은 순서대로 입력해주세요!\nex)김준이, 김창하, 문가온').replace(/, /g, '", "')
     + '"]'
 )
 
-const url = new URL(window.location.href)
-const params = new URLSearchParams(url.search)
-const index = params.get('index')
 let activityIndex = 0
 
 function openContent(id) {
