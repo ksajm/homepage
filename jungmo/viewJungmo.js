@@ -51,7 +51,12 @@ function displayMain() {
                 ${activity.isPublic ? activity.topic : '???'}
             </h1>`
         }
-        else throw new Error('호엥')
+        else {
+            element.innerHTML = `<h1>
+                <span class="info">활동: </span>
+                ${activity.isPublic ? activity.topic : '???'}
+            </h1>`
+        }
 
         document.getElementsByClassName('list')[0].appendChild(element)
     }
