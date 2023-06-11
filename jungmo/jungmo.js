@@ -83,6 +83,21 @@ const jungmoList = [
         '김준이', '김창하', '김래환', '문가온',
         '김수안', '차재윤', '손민성', '김태이',
         '문이현', '차주원'
+    ]),
+    new Jungmo('6/11', '세미나실 A', [
+        new Present('좋은 언어의 특징은?', 1, 'reverse', true),
+        new Debate('camelCase 가 snake_case 보다 낫다.'),
+        new Debate('세미콜론을 쓰는 것이 안 쓰는 것보다 낫다.'),
+        new Debate('mutable이 존재하는 언어는 불편하다.'),
+        new Debate('블록을 인덴트로 구분하는 것이 중괄호보다 낫다.'),
+        new Debate('엄격한 언어가 유연한 언어보다 낫다.'),
+        new Present('자신만의 크사랭을 설계하여라!', 3, 'normal'),
+        new Debate('논외) 문가온의 도촬 행위는 범죄이다.', true),
+        new Activity('정모 규칙 제정 (선택적 참여)', true)
+    ], [
+        '김준이', '김창하', '김래환', '문가온',
+        '김수안', '차재윤', '김태이', '문이현',
+        '이준민'
     ])
 ]
 
