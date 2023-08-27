@@ -67,6 +67,9 @@ function displayActivity(i) {
     const activity = jungmoList[index].activities[activityIndex]
     openContent('activity')
 
+    if (activity.image === null) document.body.style.backgroundImage = 'none'
+    else document.body.style.backgroundImage = 'url("' + activity.image + '")'
+
     if (activity instanceof Present) displayPresent(activity)
     else if (activity instanceof Debate) displayDebate(activity)
     else {

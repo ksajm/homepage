@@ -1,11 +1,15 @@
 class Activity {
-    constructor(topic, isPublic) {
+    constructor(topic, isPublic, image) {
         this.topic = topic
         this.isPublic = isPublic
+        this.image = image
     }
 }
 
 class Present extends Activity {
+    /**
+     * @param {'normal' | 'reverse' | 'random'} orderType
+     */
     constructor(topic, time = 3, orderType = 'normal', isPublic = false, image = null) {
         super(topic, isPublic)
         this.time = time
