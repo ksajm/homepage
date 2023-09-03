@@ -102,6 +102,22 @@ const jungmoList = [
         '김준이', '김창하', '김래환', '문가온',
         '김수안', '차재윤', '김태이', '문이현',
         '이준민'
+    ]),
+    new Jungmo('9/3', '세미나실 D', [
+        new Activity('스티커 배부', true),
+        new Present('김준성 자기소개', 2, 'normal'),
+        new Present('차주윤 자기소개', 1, 'normal'),
+        new Activity('정모 인스타 자기소개 글 쓰기', true),
+        new Present('한과영 정전의 현재와 미래', 2, 'normal', true),
+        new Debate('한과영에서 파이썬을 가르치는 것은 옳다.'),
+        new Debate('정전으로서 기초정수론을 들어야한다.'),
+        new Debate('자료구조 수업에서 프로젝트를 하는 것은 옳다.'),
+        new Debate('Automata들어가기 > IDEV 들어가기'),
+        new Debate('논외) 한별이 > 막내 피키', true)
+    ], [
+        '김준이', '김창하', '김태이', '김준성',
+        '이준민', '문가온', '차재윤', '차주원',
+        '김수안', '손민성', '문이현', '김래환'
     ])
 ]
 
