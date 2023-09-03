@@ -111,21 +111,6 @@ const members = [
         description: '안녕하세요 반갑습니다!! :)'
     }),
     new Member({
-        name: '김래환',
-        id: '23-016',
-        quote: '이슈가 있는데?',
-        links: ['acmicpc.net/user/Raehwan0418', 'instagram.com/raehwan.k/'],
-        favorite: {
-            field: '알고리즘',
-            language: 'C++'
-        },
-        description: '안녕하세요 김래환입니다.'
-    }),
-    new Member({
-        name: '김준성',
-        id: '23-029',
-    }),
-    new Member({
         name: '문가온',
         id: '23-046',
         quote: '집 가고 싶다',
@@ -135,10 +120,6 @@ const members = [
             language: 'Python, TS, C++, JS'
         },
         description: '안녕하세요 :D'
-    }),
-    new Member({
-        name: '김수안',
-        id: '23-022',
     }),
     new Member({
         name: '차재윤',
@@ -152,6 +133,17 @@ const members = [
         description: 'return NULL;'
     }),
     new Member({
+        name: '김래환',
+        id: '23-016',
+        quote: '이슈가 있는데?',
+        links: ['acmicpc.net/user/Raehwan0418', 'instagram.com/raehwan.k/'],
+        favorite: {
+            field: '알고리즘',
+            language: 'C++'
+        },
+        description: '안녕하세요 김래환입니다.'
+    }),
+    new Member({
         name: '손민성',
         id: '23-063',
         quote: '0은 자연수다',
@@ -162,8 +154,16 @@ const members = [
         }
     }),
     new Member({
-        name: '김태이',
-        id: '23-037',
+        name: '이준민',
+        id: '23-089',
+        favorite: {
+            field: 'PS, 알고리즘',
+            language: 'Python, C++'
+        }
+    }),
+    new Member({
+        name: '김수안',
+        id: '23-022',
     }),
     new Member({
         name: '문이현',
@@ -174,11 +174,11 @@ const members = [
         id: '23-115',
     }),
     new Member({
-        name: '이준민',
-        id: '23-089',
-        favorite: {
-            field: 'PS, 알고리즘',
-            language: 'Python, C++'
-        }
+        name: '김준성',
+        id: '23-029',
+    }),
+    new Member({
+        name: '김태이',
+        id: '23-037',
     })
 ]
