@@ -59,7 +59,7 @@ class Jungmo {
     }
 
     get name() {
-        return `제 ${this.index + 1}회 정모 정모`
+        return `제${this.index + 1}회 정모 정모`
     }
 
     get DOM() {
