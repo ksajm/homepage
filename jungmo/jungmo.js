@@ -148,6 +148,33 @@ const jungmoList = [
         '김준이', '김창하', '김태이', '김준성',
         '이준민', '문가온', '차재윤', '차주원',
         '김수안', '손민성', '문이현', '김래환'
+    ]),
+    new Jungmo('9/22', '세미나실 D', [
+        new Debate('운동은 코딩할 때 중요하다', false),
+        new Activity('몸으로 말해요', false),
+        new Activity('라이어 게임', false),
+        new Activity('다음 정모정모 외출 계획', true),
+    ], [
+        '김준이', '김창하', '김준성', '김래환',
+        '김태이', '차재윤', '손민성', '김수안',
+        '차주원', '이준민', '문가온'
+    ]), new Jungmo('11/24', '세미나실 D', [
+        new Activity('차재윤 RNE 발표', true),
+        new Activity('시상식', true),
+        new Present('정모에서 가장 좋았던 활동', 1, 'normal', false),
+        new Debate('파이썬은 좋은 언어인가?'),
+        new Debate('한과영 참된 선생님은?'),
+        new Debate('블록코딩은 알고리즘 공부에 도움이 될까?'),
+        new Debate('float 형은 분수/다항식으로 대체되어야 할까?'),
+        new Present('2년동안 정모 후기', 2, 'reverse', false),
+        new Debate('정모 연구회는 유지되어야한다.', false),
+        new Activity('이후 계획 회의', true),
+        new Activity('메뉴 정하기', true),
+        new Activity('사진 찍기', false)
+    ], [
+        '김준이', '문이현', '김래환', '김준성',
+        '문가온', '이준민', '김수안', '손민성',
+        '차재윤', '김창하'
     ])
 ]
 
